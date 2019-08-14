@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-image: linear-gradient(to right, #f14883, #7860ff);
+  display: inline-grid;
+  grid-template-columns: 10% 80% 10%;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 1em 0;
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column: 2;
+}
+
+.item {
+  display: inline;
+  color: white;
+  justify-self: center;
+  opacity: 0.75;
+}
+
+.item:hover {
+  opacity: 1;
+}
+
+.aboutWrapper {
+  height: 100vh;
+}
+
+.experienceWrapper {
+  height: 100vh;
+}
+
+.portfolioWrapper {
+  height: 100vh;
+}
+
+.contactWrapper {
+  height: 100vh;
+}
+
+.footerWrapper {
+  height: 100vh;
+}
+
+.resume {
+  margin: auto;
+  background: #7860ff;
+  border: 0;
+  display: block;
+  border-radius: 2em;
+  padding: 0.75em 2em;
+  color: white;
+}
